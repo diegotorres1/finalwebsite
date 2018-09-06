@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Project HiGRID</title>
+  <meta name="author" content="Diego Torres">
+  <meta name="description" content="diego torres is a computer engineer at UCI here are my projects" />
+  <meta name="keywords" content="diego, torres, computer,programmer,projects" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/project.css" />
+</head>
+
+
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1></h1>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+            <li><a href="../index.php">Home</a></li>
+            <li class = "current"><a href="../project.html">Projects</a></li>
+            <li><a href="../about_me.html">About Me</a></li>
+            <li><a href="../contact.html">Contact Info</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div id="site_content">
+
+    <div id="content">
+      <div id = "about_me">
+        <h4>IOT Smart Home Security Device</h4>
+        <br>
+          <p>
+            <i>
+              <b>IOT</b> -
+              Internet of Things is a system of  communicating computing devices and sensors with the ability to transfer information without the need for human intervention. Advancements in communication, with emergent technologies in wireless internet, as well as demand in the sector of big data analytics has led to a prevalent interest in using IOT to solve day to day problems like traffic in major freeways, HVAC Systems, and sustainability efforts involving optimization and automation.
+            </i>
+          </p>
+          <br>
+        <div class = "project_banner" >
+            <img src="switcheroo/switcheroo.png" alt="switcheroo logo" width="500" height="200">
+        </div>
+        <div class = "Extra">
+          <h4>IOT Home Security Device</h4>
+            <br>
+            <br>
+            <h2><strong>Documents</strong></h2>
+              <p>
+                <li><a href = "" target="_blank">Documentation</a> </li>
+                <br>
+                <li><a href = "" target="_blank">Gallery</a></li>
+              </p>
+            <br>
+            <p>
+              IOT has found its way into homes and era of smart homes has began. Although smart homes had always been a dream since the 20th century, the possibility has always been limited by economics and practicality. With powerful computational devices being more affordable than ever, and with the research underway for integration of IOT, the smart is no longer a dream but the inevitable future of the middle class household.
+            </p>
+            <br>
+            <h2><strong>Design</strong></h2>
+              <p>
+                The Home security device made use of a Raspberry Pi. Ultrasonic sensors were used to detect motion, a humidity and temperature sensor were used as weather indicators, and a push button switch was used to control the state of the device.
+                <br><br>
+                The Raspberry Pi is connected with the LCD, ADC with inputs from two sensors (Thermistor and Light Dependent Resistor (LDR)), ultrasonic sensor, few switches and LEDs, and the internet. The IOT device had two operating modes: normal mode and security mode.
+                The normal mode is the operational mode that functions while you are present at home. In this case, the Raspberry Pi measures the temperature and displays it on the LCD, beside some other information such as the clock and the date.
+                <br><br>
+                The security mode is the operational mode that is activated when you leave your house via a switch. In this mode, the Raspberry Pi would keep reading data from the LDR and the ultrasonic sensor to detect any suspicious events such as someone crossing the ultrasonic sensor or a light is turned on. If any suspicious event is detected, the Raspberry Pi sends an email to you reporting this suspicious event.
+              </p>
+        </div>
+      </div>
+    </div>
+
+  <div id="footer">
+    <p>email : diegot1@uci.edu  |  phone number : (909)-386-8987  |  LinkedIn : <a href="https://www.linkedin.com/in/diego-torres-557766157">Profile</a></p>
+  </div>
+</body>
+
+
+
+
+</html>
