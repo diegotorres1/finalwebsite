@@ -23,7 +23,7 @@
           <li class="current"><a href="index.php">Home</a></li>
           <li><a href="project.html">Projects</a></li>
           <li><a href="about_me.html">About Me</a></li>
-          <li><a href="contact.html">Contact Info</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
         </ul>
       </div>
     </div>
