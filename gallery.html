@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Diego Torres Gallery</title>
+  <title>Diego Torres Gallery </title>
   <meta name="author" content="Diego Torres">
   <meta name="description" content="diego torres is a computer engineer at UCI here are my projects" />
   <meta name="keywords" content="diego, torres, computer,programmer,projects" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/about_me.css" />
+  <link rel="stylesheet" type="text/css" href="styles/gallery.css" />
 </head>
 
 
@@ -33,16 +33,22 @@
 
     <div id="content">
       <div id = "about_me">
-        <h4>Who Am I?</h4>
-        <br>
-          <p>
-            I am a student of the University of California Irvine. I am an avid pursuer of knowledge and enjoy spending my time learning something new and experiencing the world in new ways. From a young age I also had a morbid curiosity for the mechanisms behind technology. From these early stages I had always known that engineering was an innate feature of myself. And along the way, from my early childhood roots to teenage youth, I had shifted between Aerospace, Computer, and Mechanical Engineering. I finally settled towards computers. They really began fascinating me, with the start of my first programming class, occuring my senior year of high school. I had always loved computers but a new world was exposed to me when the backdoor of most modern technologies was shown to me. From there, I chose to pursue a degree in Computer Engineering, and plan to explore the world with a computer at the heart of my ability to transform it.
-          </p>
-          <br>
-        <div class = "Extra">
-        content
+        <h4>Project Gallery<h4>
+        <div class="w3-content">
+          <img class="mySlides" src="gallery/edith_eating.jpg" style="width:20%">
+          <img class="mySlides" src="gallery/edith_oc.jpg" style="width:20%">
+          <img class="mySlides" src="gallery/edith_slide.jpg" style="width:20%">
         </div>
 
+        <div class="w3-center">
+          <div class="w3-section">
+            <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">Prev</button>
+            <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next</button>
+          </div>
+          <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+          <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+          <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+        </div>
       </div>
     </div>
 
@@ -51,34 +57,34 @@
   </div>
 </body>
 
+
 <script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-var slide_index = 1;
-show_divs(slide_index);
-function plus_divs(n){
-  show_divs(slide_index += n)
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
-function current_div(n){
-  show_div(slide_index = n)
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
 }
-function show_div(n){
+
+function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("");
-  var dots = document.getElementsByClassName("");
-  if(n > x.length){
-    slide_index = 1;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
   }
-  if(n < 1){
-    slide_index = x.length;
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
   }
-  for(i = 0 ; i < x.length;i++){
-    dots[i].className = dots[i].className.replace("w3-white","white")
-  }
-  x[slide_index - 1].style.display = "block"
-  dots[slide_index - 1].className += "w3-white"
-
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-red";
 }
 </script>
-
 
 </html>
