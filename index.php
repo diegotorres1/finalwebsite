@@ -31,6 +31,10 @@
       <div id="sidebar_container">
         <div class="sidebar">
         <!-- insert your sidebar items here -->
+          <img src="me.jpg" alt="diego torres" height="100%" width="100%">
+        </div>
+        <div class="sidebar">
+        <!-- insert your sidebar items here -->
         <h3>Update</h3>
         <h4>Newest Project</h4>
           <p>
