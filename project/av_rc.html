@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Autonomous Vehicle</title>
+  <meta name="author" content="Diego Torres">
+  <meta name="description" content="diego torres is a computer engineer at UCI here are my projects" />
+  <meta name="keywords" content="diego, torres, computer,programmer,projects" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/project.css" />
+</head>
+
+
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1></h1>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+            <li><a href="../index.php">Home</a></li>
+            <li class = "current"><a href="../project.html">Projects</a></li>
+            <li><a href="../about_me.html">About Me</a></li>
+            <li><a href="../gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div id="site_content">
+
+    <div id="content">
+      <div id = "about_me">
+        <h4>Autonomous RC Car</h4>
+        <br>
+          <p>
+            <i>
+              <b>Autonomous Car</b> - An autonomous car is a vehicle that can guide itself without human conduction. This kind of vehicle has become a concrete reality and may pave the way for future systems where computers take over the art of driving.
+              <br>
+              <br>
+              <b>NN</b> - a network of nodes that process and feed information through, while on the whole interpreting a stream of vectored information modeled loosely on the human nervous system of neurons.
+            </i>
+          </p>
+          <br>
+        <div class = "project_banner" >
+            <img src="autonomouscar/kerashaar.png" alt="keras and haar logo" width="500" height="250">
+        </div>
+        <div class = "Extra">
+          <br>
+          <h4>Autonomous RC Car - Keras & Haar Cascades</h4>
+            <br>
+            <br>
+            <h2><strong>Links</strong></h2>
+              <p>
+                <li><a href = "../gallery.html" target="_blank">Gallery</a></li>
+                <br>
+                <li><a href = "../final submit.pdf" target="_blank">ABET Midterm</a></li>
+                <br>
+                <li><a href = "../Proposal UROP.pdf" target="_blank">UROP Proposal</a></li>
+                <br>
+                <li><a href = "../Senior Design Poster.pdf" target="_blank">Senior Design Poster</a></li>
+              </p>
+            <br>
+            <p>
+            </p>
+            <br>
+            <h2><strong>Design</strong></h2>
+              <p>
+                The project began during the start of senior year. The primary components of the car involve the software systems on offboard. The software systems were built by me. The system uses Haar Cascades to recognize features that resemble that of a stop sign and a traffic light. The different classes of objects recognized elicit a different response in relation to the acceleration and deceleration of the vehicle. The autonomous steering was a portion of the project that was written, and trained but did not have the chance to test the steering model on the car itself. It remained largely independent feature if there was more time given to implement this into the control schema of the vehicle. The control schema involves a manual control mode and a semi-autonomous mode. The manual mode allows the user to change the speed and angle of the front axle through a simple gui. The autonomous mode involves setting an initial speed to the vehicle and allowing it to react to the environment around it, making decisions based upon these initial parameters. Image processing is done completely offboard while the control decisions are made mostly offboard.
+              </p>
+            <br>
+            <h2><strong>Skills</strong></h2>
+              <p>
+                <ol>
+                <li>Learned how to use the threading library in Python. I was aided by my previous Java class involving multithreading.</li>
+                <li>Learned how to use Haar Cascades to find objects in a scene.</li>
+                <li>Learned how to use serversocket library to create my own server for streaming and receiving video data.
+                <li>Learned how to manage a larger scale project on my ow, by setting up a design scheme and realistic goals given the time constraints.
+                <li>Gained basic skills in working with neural networks through the use of the Keras API built ontop of Tensorflow. Also gained experience in finding potential sources for data, and refining the model by changing the number of layers, the type of layers, and the values of the parameters along the layers.
+                </ol>
+              </p>
+        </div>
+      </div>
+    </div>
+
+  <div id="footer">
+    <p>email : diegotorres9799@gmail.com  |  phone number : (909)-368-8987  |  LinkedIn : <a href="https://www.linkedin.com/in/diego-torres-557766157">Profile</a></p>
+  </div>
+</body>
+
+
+
+
+</html>

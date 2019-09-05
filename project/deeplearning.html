@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Deep Learning Car Counter</title>
+  <meta name="author" content="Diego Torres">
+  <meta name="description" content="diego torres is a computer engineer at UCI here are my projects" />
+  <meta name="keywords" content="diego, torres, computer,programmer,projects" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/project.css" />
+</head>
+
+
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1></h1>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+            <li><a href="../index.php">Home</a></li>
+            <li class = "current"><a href="../project.html">Projects</a></li>
+            <li><a href="../about_me.html">About Me</a></li>
+            <li><a href="../gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div id="site_content">
+
+    <div id="content">
+      <div id = "about_me">
+        <h4>Deep Learning Car Counter</h4>
+        <br>
+          <p>
+            <i>
+              <b>YOLO</b> - You only look once (YOLO) is a state-of-the-art, real-time object detection system. On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% on COCO test-dev.
+              <br>
+              <br>
+              <b>H2-Station</b> - Hydrogen Fueling Station is much like a typical gas station but instead of cars filling up on gasoline, they instead fill up on H2.
+            </i>
+          </p>
+          <br>
+        <div class = "project_banner" >
+            <img src="deeplearning/darknet.png" alt="darknet logo" width="500" height="250">
+        </div>
+        <div class = "Extra">
+          <br>
+          <h4>Darknet Neural Network Car Counter</h4>
+            <br>
+            <br>
+            <h2><strong>Links</strong></h2>
+              <p>
+                <li><a href = "../gallery.html" target="_blank">Gallery</a></li>
+              </p>
+            <br>
+            <p>
+              In this project the number of cars in a given queue in the H2 station was found using the neural network framework, Darknet. There is also associated transaction history that goes along with the H2 station. The goal is to compare the size of the queue in a given time period to the number of transactions in the same time period. This is important in the design of the H2 station because unlike typical gas stations where the wait times are fairly linear in proportion to the size of the queue, queue shrinkage in an H2 station can take significantly longer. This is because they rely on special technologies to prepare the H2 to be safely pumped into the vehicle. Do to the amount of time that customers have to wait to receive their H2, they sometimes leave the queue and can go to another H2 station, or come back at a later time. Using the size of the queue as measured by the NN, we can determine the number of cars that leave the station while they are in the queue. This can assist with designing the station to meet the demand, and provides informative details on the patterns of H2 vehicle drivers.
+            </p>
+            <br>
+            <h2><strong>Design</strong></h2>
+              <p>
+                In this project I am utilizing darket, which is an open source neural network framework written in C and CUDA. The model was trained on the image coco dataset. The accuracy worked fairly well for our application, but needed to be improved using our own image set for our particular usage. We have trained our own model but have found that the model becomes overfitted for out data. To fix our old training set, composed of 1000 images, we increased the number of images to improve our accuracy. Used 10,000 images instead, and only used gray scales of the image.
+              </p>
+            <br>
+            <h2><strong>Skills</strong></h2>
+              <p>
+                Improved my understanding on the vocabulary of deep learning, and also learned how to manipulate the variables in the Darknet framework to classify the vehicles in our scene. While doing this project our team read into other image classification systems as well as other deep learning model architectures.
+              </p>
+        </div>
+      </div>
+    </div>
+
+  <div id="footer">
+    <p>email : diegotorres9799@gmail.com  |  phone number : (909)-368-8987  |  LinkedIn : <a href="https://www.linkedin.com/in/diego-torres-557766157">Profile</a></p>
+  </div>
+</body>
+
+
+
+
+</html>

@@ -38,7 +38,7 @@
         <h3>Update</h3>
         <h4>Newest Project</h4>
           <p>
-              Machine Learning being used to detect incoming objects.<br> For more information click<a> here</a>.
+              Machine Learning being used to detect incoming objects.<br> For more information click<a href = "project/deeplearning.html"> here</a>.
           </p>
         </div>
       </div>
@@ -51,16 +51,12 @@
             <h2>University of California, Irvine</h2>
             Computer Engineer
             <br>
-            <u>Bachelors in Science</u>, expected 05/19
+            <u>Bachelors in Science</u>, June 2019
             <br>
-            <strong><u>Projects:</u></strong>
             <br><br><br>
             <ol>
-              <li>Programming a Basys FPGA board using System Verilog to simulate a basic processor and its individual components. Worked in a group of four to reproduce the concepts learned from the course, Logic and Digital Systems.</li>
-              <li>Android Platform making retro-games. Collaborated  in a team of four people. Led to further understanding  the limitations of programming due to hardware. Useful for understanding systems in parallel.</li>
-              <li>Current source under Professor Lee of UCI.  Worked with one group member to gather data and present it to other students in a lecture format. Helped constrain focus onto one topic for a more thorough understanding.</li>
-              <li>Taxi  system in C, using server to client communications to send data of available cars in a premade map and communicating a request to the car. Used SDL to implement a GUI, and  a CVS repository to work together on the source code. Worked in a team of four.</li>
-              <li>Self-Adjusting Solar Panel, using Arduino microcontroller to change the angle of the solar panel depending on the light intensity available in the surrounding area.  Used knowledge of SolidWorks, Simple Circuit Analysis, and 3D printing to construct device.</li>
+              <li><b>Tau Beta Pi Engineering Honor Society</b>, UC Irvine, Irvine, California</li>                                            	          May 2019
+              <li><b>Eta Kappa Nu IEEE Honor Society</b>, UC Irvine, Irvine, California</li>
             </ol>
             <br><br><br>
           <p>
@@ -103,7 +99,7 @@
       </div>
     </div>
     <div id="footer">
-      <p>email : diegot1@uci.edu  |  phone number : (909)-386-8987  |  LinkedIn : <a href="https://www.linkedin.com/in/diego-torres-557766157">Profile</a></p>
+      <p>email : diegotorres9799@gmail.com  |  phone number : (909)-368-8987  |  LinkedIn : <a href="https://www.linkedin.com/in/diego-torres-557766157">Profile</a></p>
     </div>
   </div>
 </body>
